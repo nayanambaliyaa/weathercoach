@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.container {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+}
+
+.row-1 {
+    width: 100vw;
+    min-height: 600px;
+    background-image: url(../img/Clip\ path\ group.png);
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.weather_tital {
+    font-size: 34px;
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 700;
+}
+
+.card_bg_1 {
+    transform: translatex(50px);
+}
+
+.card_bg_2 {
+    transform: translateY(50%);
+    border-radius: 30px;
+
+}
+
+#forecast {
+    font-size: 18px;
+    letter-spacing: 0.09px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    width: 580px;
+}
+
+#bycycle {
+    width: 50%;
+    height: 650px;
+}
+
+.bycycle-r {
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/bycycle.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.notification {
+    width: 180px;
+    height: 45px;
+    border: none;
+}
+
+/* card  */
+.bg-images {
+    border-radius: 203.5px 0px;
+    background: linear-gradient(180deg, #FED0C9 0%, #FFF1AC 100%);
+    width: 500px;
+    height: 350px;
+    margin-top: 50px !important;
+    justify-content: center;
+    display: flex;
+}
+
+hr {
+    margin: 0rem !important;
+}
+
+.only_text {
+    margin-top: 50px !important;
+}
+
+.pocket_weather {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+
+.forecast {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.09px;
+    text-transform: capitalize;
+}
+
+.bg-ground {
+    background-image: url(/img/bg_parvat.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 520px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.franciscos {
+    padding-top: 112px;
+    justify-content: center !important;
+    display: flex;
+}
+
+.francisco {
+    justify-content: center !important;
+    display: flex;
+}
+
+.san {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.wind {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.rain-card {
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.cardsss {
+    width: 480px;
+    border-radius: 19px;
+    background: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+.wether_card {
+    width: 230px;
+    height: 320px !important;
+    border-radius: 28px !important;
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.42);
+    justify-content: center;
+    align-items: center;
+}
+
+.box-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.weekly {
+    margin-top: 50px;
+}
+
+.week {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.we-card {
+    margin-top: 25px;
+}
+
+.bg-gs {
+    background-color: #FED0C9;
+    border-radius: 19px;
+    width: 65px;
+    height: 29px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tetxs {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.c-25 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 7px;
+}
+
+.cloudy {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+#cardss {
+    border-radius: 25px;
+
+
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.19);
+}
+
+.recent {
+    margin-top: 60px;
+    background-color: #F4F4F4;
+    height: 450px;
+}
+
+.resewe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+}
+
+.loreamip {
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0.12px;
+}
+
+.recent_word {
+    padding-top: 69px;
+    display: grid;
+    justify-content: center;
+}
+
+/* card  */
+.bg-card {
+    background-image: url(/img/card_suraj.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+
+.bg-cards {
+    background-image: url(/img/card_2_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+
+.surya {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.paris {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.twe {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.radius {
+    border-radius: 30px !important;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.bg-contaniers {
+    background-image: url(/img/today_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+    margin-top: 80px;
+}
+
+.sunset-card {
+    margin-top: 25px !important;
+}
+
+.todays {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sunrise {
+    background-image: url(/img/sunrise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.suns {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 94px 0px 0px 37px;
+}
+
+.time_am {
+    color: #ffffff;
+    font-size: 32px;
+    padding: 0px 0px 0px 37px;
+}
+
+.sunset {
+    background-image: url(/img/sunset.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.top_card {
+    padding-top: 30px;
+}
+
+.card-todays {
+    margin: 0 auto;
+    width: 550px;
+}
+
+.contant {
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.newsupdate {
+    width: 600px;
+    height: 390px !important;
+    border-radius: 19px !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    padding-left: 20px;
+    margin-top: 45px;
+}
+
+.tws {
+    color: #FFF;
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.twv {
+    color: #FFF;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 7px;
+}
+
+.layout {
+    padding-top: 30px;
+    column-gap: 15px;
+}
+
+.news {
+    color: #FBB03B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+}
+
+.wether_news {
+    margin-top: 80px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loream_wether {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.07px;
+    text-transform: capitalize;
+}
+
+.he-card {
+    height: 400px !important;
+    border-radius: 16px !important;
+    border: 1px solid #DADADA;
+    background-color: #FFF;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Read {
+    text-decoration: none;
+}
+
+.texts {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    text-transform: capitalize;
+}
+
+.read_more_btn {
+    color: #FFF;
+    background-color: #1E64F0;
+    border: none;
+    width: 224px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* footer part  */
+.bg-footer {
+    margin-top: 80px;
+    background-color: #000;
+    width: 100%;
+    height: 334px;
+}
+
+.footer_weather_text {
+    color: #FFF;
+    font-family: 'Inder', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.weater_footer {
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.footer_navbar {
+    list-style-type: none;
+    padding-top: 30px;
+    column-gap: 20px;
+    color: #FFF;
+}
+
+.hr_row {
+    color: #FFF;
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin-top: 50px;
+    position: absolute;
+    left: 5%;
+}
+
+.footer_copy {
+    padding-top: 37px;
+}
+
+.rights {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    justify-content: start;
+}
+
+
+
+
+
+/* media query  */
+@media (min-width:320px) and (max-width:480px) {
+    .weather_tital {
+        font-size: 23px;
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #forecast {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .bycycle-r {
+        width: 100%;
+        height: 300px;
+        padding: 0 !important;
+    }
+
+    .notification {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .row-1 {
+        height: 500px;
+        display: block;
+    }
+
+    #bycycle {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .bg-ground {
+        display: block;
+        width: 100%;
+        margin-top: 35px;
+        height: 700px;
+        background-size: cover;
+    }
+
+    .franciscos {
+        padding-top: 30px;
+    }
+
+    .box-center {
+        padding-top: 30px;
+    }
+
+    .recent {
+        min-height: 1070px !important;
+    }
+
+    .recent_word {
+        padding-top: 20px;
+    }
+
+    .resewe {
+        justify-content: center;
+        display: flex;
+        font-size: 35px;
+    }
+
+    .loreamip {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .res-card {
+        flex-direction: column;
+        min-width: 100%;
+
+    }
+
+    .radius {
+        border: none !important;
+        margin: 0 auto;
+    }
+
+    .footer_navbar {
+        flex-direction: column;
+    }
+
+    .bg-footer {
+        height: 460px;
+    }
+
+    .iconss {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .row-1 {
+        display: none;
+        height: 730px;
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .bycycle-r {
+        width: 100%;
+        height: 500px;
+        display: block;
+    }
+
+    #bycycle {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .bg-ground {
+        column-gap: 70px;
+    }
+
+    .loreamip {
+        font-size: 20px;
+    }
+
+    .bg-card {
+        width: 150px;
+        border-radius: 30px;
+    }
+
+    .bg-cards {
+        width: 150px;
+    }
+
+    .forecast {
+        font-size: 17px;
+    }
+
+}
+
+/* media  */
+/* @media (max-width:769px){
+    .we-card{
+        display: grid;
+        grid-template-columns: auto 2fr;
+    }
+}
+@media (max-width: 991px) {
+    .col-md-6,
+    .col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 375px) {
+    .col-md-6,
+    .col-lg-4,
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .col-md-6,
+    .col-lg-4,
+    .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */

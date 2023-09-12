@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+    <link rel="stylesheet" href="/style/map.css">
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <a class="navbar-brand" href="#"><img src="/img/navbar_weather.png" alt=""> Wethercoach</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="climate_change.html">Climate Change</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-img">
+        <div class="col-lg-7">
+            <h1>Map</h1>
+        </div>
+    </div>
+    <div class="around">
+        <p class="text-center">Europe Map Finder</p>
+    </div>
+
+    <!-- card  -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_1.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Temperature Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_2.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Colud Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_3.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Wind Map</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/india.svg" alt="" class="flag">
+                    <p>India</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/germany.svg" alt="" class="flag">
+                    <p>Germany</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/Denmark.svg" alt="" class="flag">
+                    <p>Denmark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/france.svg" alt="" class="flag">
+                    <p>France</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/poland.svg" alt="" class="flag">
+                    <p>Poland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/swizerland.svg" alt="" class="flag">
+                    <p>swizerland</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/netherland.svg" alt="" class="flag">
+                    <p>Netherland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/newyork.svg" alt="" class="flag">
+                    <p>New York</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/londan.svg" alt="" class="flag">
+                    <p>Londan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2  -->
+    <div class="around">
+        <p class="text-center">Asia Map Finder</p>
+    </div>
+
+    <!-- card  -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_1.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Temperature Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_2.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Colud Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_3.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Wind Map</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/india.svg" alt="" class="flag">
+                    <p>India</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/germany.svg" alt="" class="flag">
+                    <p>Germany</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/Denmark.svg" alt="" class="flag">
+                    <p>Denmark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/france.svg" alt="" class="flag">
+                    <p>France</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/poland.svg" alt="" class="flag">
+                    <p>Poland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/swizerland.svg" alt="" class="flag">
+                    <p>swizerland</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/netherland.svg" alt="" class="flag">
+                    <p>Netherland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/newyork.svg" alt="" class="flag">
+                    <p>New York</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/londan.svg" alt="" class="flag">
+                    <p>Londan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3  -->
+    <div class="around">
+        <p class="text-center">Africa Map Finder</p>
+    </div>
+
+    <!-- card  -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_1.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Temperature Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_2.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Colud Map</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cards">
+                    <img src="/img/mapc_3.png" class="card-img-top" alt="..."><br>
+                    <p class="maps_tital m-auto">Wind Map</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/india.svg" alt="" class="flag">
+                    <p>India</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/germany.svg" alt="" class="flag">
+                    <p>Germany</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/Denmark.svg" alt="" class="flag">
+                    <p>Denmark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/france.svg" alt="" class="flag">
+                    <p>France</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/poland.svg" alt="" class="flag">
+                    <p>Poland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/swizerland.svg" alt="" class="flag">
+                    <p>swizerland</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center country">
+        <div class="container text-center">
+            <div class="row row-cols-3 justify-content-center gap-3">
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/netherland.svg" alt="" class="flag">
+                    <p>Netherland</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/newyork.svg" alt="" class="flag">
+                    <p>New York</p>
+                </div>
+                <div class="col-md-3 gap-2 d-flex borders align-items-center">
+                    <img src="/img/londan.svg" alt="" class="flag">
+                    <p>Londan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="contanier">
+        <div class="bg-footer">
+            <div class="d-flex weater_footer gap-2">
+                <img src="/img/navbar_weather.png" alt="" style="height: 60px;">
+                <p class="footer_weather_text">Weathercoach</p>
+            </div>
+            <div>
+                <ul class="d-flex justify-content-center footer_navbar nave_items">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="climate_change.html">Climate Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="gallery.html">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="hr_row">
+            <div class="row footer_copy">
+                <div class="col-md-7 d-flex justify-content-center">
+                    <p><i class="fa-regular fa-copyright" style="color: #ffffff;"></i></p>
+                    <p class="text-light rights">2022 Weathercoach. All Rights Reserved</p>
+                </div>
+                <div class="col-md-4 d-flex gap-3 justify-content-center iconss">
+
+                    <a href="https://linkedin.com" target="_blank">
+                        <img src="/img/linkdin.svg" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/img/instragarm.svg" alt="">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="/img/twitter.svg" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img src="/img/facebook.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

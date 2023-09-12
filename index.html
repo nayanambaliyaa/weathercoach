@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="/style/style.css">
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <a class="navbar-brand" href="#"><img src="/img/navbar_weather.png" alt=""> Wethercoach</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="climate_change.html">Climate Change</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="padding: 0px; margin: 0px;">
+        <div class="row row-1">
+            <div class=" col-md-4" id="bycycle-text">
+                <p class="weather_tital">weather forecast for everyone</p>
+                <p id="forecast">The forecast for today is sunny and bright, with a high of 68 <br> degrees. enjoy the
+                    beautiful
+                    weather and make sure to wear <br> sunscreen.</p>
+                <button class="notification">Get Notification</button>
+            </div>
+            <div class="col-md-5" id="bycycle">
+                <div class="bycycle-r">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contanier">
+        <div class="row row-2 justify-content-center">
+            <div class="col-md-6 bg-images justify-conten t-center d-flex">
+                <div class="card card_bg_1" style="width: 20rem;height: 260px;">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="card-body" style="padding-top: 30px;padding-right: 30px;">
+                                <h5 class="card-title">Cape Town</h5>
+                                <h5 class="card-title">13.32&#8451</h5>
+                                <p>Tuesday</p>
+                            </div>
+                            <div class="card-body">
+                                <img src="/img/partly.png" alt="" width="90px" height="84px">
+                                <p>Partly Cloudy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-center gap-4" style="padding-top: 10px;">
+                        <div class="d-flex gap-1">
+                            <img src="/img/rain.png" alt="" height="20px" width="20px">
+                            <p>66%</p>
+                        </div>
+                        <div class="d-flex gap-1">
+                            <img src="/img/woman.png" alt="" height="20px" width="20px">
+                            <p>14%</p>
+                        </div>
+                        <div class="d-flex gap-1">
+                            <img src="/img/sun.png" alt="" height="20px" width="20px">
+                            <p>66%</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+                <div class="card card_bg_2" style="width: 20rem;height: 260px;">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="card-body" style="padding-top: 30px;padding-left: 30px;">
+                                <h5 class="card-title">Cape Town1</h5>
+                                <h5 class="card-title">13.32&#8451</h5>
+                                <p>Tuesday</p>
+                            </div>
+                            <div class="card-body">
+                                <img src="/img/partly.png" alt="" width="90px" height="84px">
+                                <p>Partly Cloudy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-center gap-4" style="padding-top: 10px;">
+                        <div class="d-flex gap-1">
+                            <img src="/img/rain.png" alt="" height="20px" width="20px">
+                            <p>66%</p>
+                        </div>
+                        <div class="d-flex gap-1">
+                            <img src="/img/woman.png" alt="" height="20px" width="20px">
+                            <p>14%</p>
+                        </div>
+                        <div class="d-flex gap-1">
+                            <img src="/img/sun.png" alt="" height="20px" width="20px">
+                            <p>66%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 only_text">
+                <p class="pocket_weather">weather in your pocket <br><span style="color: #1E64F0;">directly from your
+                        phone</span></p>
+                <p class="forecast">
+                    The forecast for today is sunny and bright, with a high of 68 <br> degrees. enjoy the beautiful
+                    weather
+                    and make sure to wear <br> sunscreen. The forecast for today is sunny and bright, with a <br> high
+                    of 68
+                    degrees. enjoy the beautiful weather and make <br> sure to wear sunscreen.
+                </p>
+                <p class="forecast">
+                    The forecast for today is sunny and bright, with a high of 68 <br> degrees. enjoy the beautiful
+                    weather
+                    and make sure to wear <br> sunscreen.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-ground">
+        <div class="col-md-6">
+            <div class="franciscos">
+                <p class="san">san francisco</p>
+            </div>
+            <div class="francisco">
+                <p>Monday,May 23 Update As Of 2:45 PM</p>
+            </div>
+            <div class="rain-card">
+                <div class="card rounded-5">
+                    <div class="card-body d-flex gap-2">
+                        <div class="d-flex gap-3">
+                            <img src="/img/varsad.png" alt="">
+                            <p class="wind">Wind 3KM/H</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/varsad.png" alt="">
+                            <p class="wind">Wind 3KM/H</p>
+                        </div>
+                    </div>
+                    <div class="card-body d-flex gap-2">
+                        <div class="d-flex gap-3">
+                            <img src="/img/suraj.png" alt="">
+                            <p class="wind">Wind 3KM/H</p>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <img src="/img/suraj.png" alt="">
+                            <p class="wind">Wind 3KM/H</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 box-center">
+            <div class="card wether_card">
+                <div class="card-body">
+                    <div>
+                        <img src="/img/wethercard.png" alt="" style="margin: 0 auto;display: block;">
+                        <h1 class="text-center">23&#8451</h1><br>
+                        <h2 class="text-center">23&#8451-31&#8451</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container weekly">
+        <div class="d-flex gap-4">
+            <p class="week">Today</p>
+            <p class="week">Weekly</p>
+        </div>
+    </div>
+    <!-- card  -->
+    <div class="container we-card">
+        <div class="row  g-4">
+            <div class="col-md-6 col-lg-3 col-12">
+                <div class="card h-110 pt-26 hover_card_1" id="cardss">
+                    <img src="/img/card1.svg" width="111px" height="99px" style="margin: 0 auto;margin-top: 15px;">
+                    <div class="card-body d-flex gap-4 justify-content-center">
+                        <p class="bg-gs">Sun</p>
+                        <p class="bg-gs">5:00PM</p>
+                    </div>
+                    <div class="d-flex gap-4 justify-content-center">
+                        <p class="tetxs">20&#8451</p>
+                        <p class="c-25">25&#8451</p>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="gap-3 d-flex m-auto">
+                            <img src="/img/varsad.png" width="19px" height="17px">
+                            <p>45Km/h</p>
+                            <img src="/img/suraj.png" width="19px" height="17px">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <p class="m-auto cloudy">Cloudy</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+                <div class="card h-110 pt-26 hover_card_1" id="cardss">
+                    <img src="/img/card2.svg" width="111px" height="99px" style="margin: 0 auto;margin-top: 15px;">
+                    <div class="card-body d-flex gap-4 justify-content-center">
+                        <p class="bg-gs">Mon</p>
+                        <p class="bg-gs">6:00PM</p>
+                    </div>
+                    <div class="d-flex gap-4 justify-content-center">
+                        <p class="tetxs">20&#8451</p>
+                        <p class="c-25">25&#8451</p>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="gap-3 d-flex m-auto">
+                            <img src="/img/varsad.png" width="19px" height="17px">
+                            <p>45Km/h</p>
+                            <img src="/img/suraj.png" width="19px" height="17px">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <p class="m-auto cloudy">Cloudy</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+                <div class="card h-110 pt-26" id="cardss">
+                    <img src="/img/card3.svg" width="111px" height="99px" style="margin: 0 auto;margin-top: 15px;">
+                    <div class="card-body d-flex gap-4 justify-content-center">
+                        <p class="bg-gs">Tue</p>
+                        <p class="bg-gs">7:00PM</p>
+                    </div>
+                    <div class="d-flex gap-4 justify-content-center">
+                        <p class="tetxs">20&#8451</p>
+                        <p class="c-25">25&#8451</p>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="gap-3 d-flex m-auto">
+                            <img src="/img/varsad.png" width="19px" height="17px">
+                            <p>45Km/h</p>
+                            <img src="/img/suraj.png" width="19px" height="17px">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <p class="m-auto cloudy">Cloudy</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-12">
+                <div class="card h-110 pt-26" id="cardss">
+                    <img src="/img/card4.svg" width="111px" height="99px" style="margin: 0 auto;margin-top: 15px;">
+                    <div class="card-body d-flex gap-4 justify-content-center">
+                        <p class="bg-gs">Wed</p>
+                        <p class="bg-gs">8:00PM</p>
+                    </div>
+                    <div class="d-flex gap-4 justify-content-center">
+                        <p class="tetxs">20&#8451</p>
+                        <p class="c-25">25&#8451</p>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="gap-3 d-flex m-auto">
+                            <img src="/img/varsad.png" width="19px" height="17px">
+                            <p>45Km/h</p>
+                            <img src="/img/suraj.png" width="19px" height="17px">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <p class="m-auto cloudy">Cloudy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contanier recent">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="recent_word">
+                    <p class="resewe">Recent <br> Search <br>Weather</p><br>
+                    <p class="loreamip">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Bibendum
+                        <br>cursus quis.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex gap-4 mt-30 res-card" style="padding-top: 40px;">
+                <div class="card radius">
+                    <div class="card-body bg-card">
+                        <div>
+                            <img src="/img/surya.png" alt="" class="surya">
+                            <p class="paris">Paris (Sun)</p>
+                            <p class="twe">20&#8451</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card radius">
+                    <div class="card-body bg-cards">
+                        <div>
+                            <img src="/img/partly.png" alt="" class="surya">
+                            <p class="paris">Paris (Sun)</p>
+                            <p class="twe">20&#8451</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="bg-contaniers">
+            <p class="text-center text-light todays">Today's Weather Details</p>
+            <p class="text-center text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum cursus
+                quis <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit quis</p>
+            <div class="row sunset-card">
+                <div class="col-md-6 justify-content-center d-grid sunset-card">
+                    <div class="d-flex">
+                        <div class="sunrise" style="width: 18rem;">
+                            <div class="card-body ">
+                                <p class="suns">Sunrise</p>
+                                <p class="time_am">6:42 Am</p>
+                            </div>
+                        </div>
+                        <!-- card 2  -->
+                        <div class="sunset" style="width: 18rem;">
+                            <div class="card-body">
+                                <p class="suns">Sunset</p>
+                                <p class="time_am">7:10 Pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center m-auto">
+                        <div class="rain-card">
+                            <div class="card cardsss rounded-5">
+                                <div class="card-body d-flex gap-5 justify-content-center">
+                                    <div class="d-flex gap-3">
+                                        <img src="/img/vaesad_2.png" alt="">
+                                        <p class="wind text-light">Wind 3KM/H</p>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <img src="/img/vaesad_2.png" alt="">
+                                        <p class="wind text-light">Wind 3KM/H</p>
+                                    </div>
+                                </div>
+                                <div class="card-body d-flex gap-5 justify-content-center">
+                                    <div class="d-flex gap-5">
+                                        <img src="/img/suraj_2.png" alt="">
+                                        <p class="wind text-light">Rain 78%</p>
+                                    </div>
+                                    <div class="d-flex gap-5">
+                                        <img src="/img/suraj_2.png" alt="">
+                                        <p class="wind text-light">Rain 82%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card newsupdate">
+                        <div class="card-body">
+                            <div class="d-flex gap-4">
+                                <p class="tws">20&#8451</p>
+                                <p class="twv">20&#8451</p>
+                            </div>
+                            <div class="row layout">
+                                <div class="col-md-2">
+                                    <img src="/img/barish.png" alt="">
+                                    <p class="text-light">24&#8451</p>
+                                    <p class="text-light">1:00PM</p>
+                                    <p class="text-light">Light Rain</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <img src="/img/suryass.png" alt="">
+                                    <p class="text-light">28&#8451</p>
+                                    <p class="text-light">1:00PM</p>
+                                    <p class="text-light">Cloudy</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <img src="/img/chanda.png" alt="">
+                                    <p class="text-light">27&#8451</p>
+                                    <p class="text-light">1:00PM</p>
+                                    <p class="text-light">Cloudy</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <img src="/img/badal.png" alt="">
+                                    <p class="text-light">26&#8451</p>
+                                    <p class="text-light">1:00PM</p>
+                                    <p class="text-light">Sunny</p>
+                                </div>
+                                <div class="col-md-2">
+                                    <img src="/img/barish.png" alt="">
+                                    <p class="text-light">29&#8451</p>
+                                    <p class="text-light">1:00PM</p>
+                                    <p class="text-light">Light Rain</p>
+                                </div>
+                            </div>
+                            <div style="margin-top: 90px;">
+                                <p class="news">News Update</p>
+                                <p class="text-light">View Tomorrow forecast <i class="fa-solid fa-arrow-right"
+                                        style="color: #ffffff;"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card and text  -->
+    <div class="text-center">
+        <h3 class="wether_news">Weather Forecast News</h3>
+        <p class="loream_wether">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum cursus quis <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit quis</p>
+    </div>
+    <!-- card  -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style="margin-top: 20px;">
+        <div class="col-md-3">
+            <div class="card he-card">
+                <img src="/img/we_1.png" class="card-img-top p-2"><br>
+                <p class="text-center">19th Jan, 2022</p><br>
+                <p class="text-center texts">
+                    One of the daily rituals I often <br> find myself doing
+                </p><br>
+                <a href="#" class="Read text-center">Read More</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card he-card">
+                <img src="/img/we_2.png" class="card-img-top p-2"><br>
+                <p class="text-center">19th Jan, 2022</p><br>
+                <p class="text-center texts">
+                    Some parts of the state saw scant <br> relief, as downtown
+                </p><br>
+                <a href="#" class="Read text-center">Read More</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card he-card">
+                <img src="/img/we_3.png" class="card-img-top p-2"><br>
+                <p class="text-center">19th Jan, 2022</p><br>
+                <p class="text-center texts">
+                    Cold weather alert issued as <br> temperatures set to plummet
+                </p><br>
+                <a href="#" class="Read text-center">Read More</a>
+            </div>
+        </div>
+    </div><br><br>
+    <button class="read_more_btn">Read More</button>
+
+    <!-- footer part  -->
+    <div class="contanier">
+        <div class="bg-footer">
+            <div class="d-flex weater_footer gap-2">
+                <img src="/img/navbar_weather.png" alt="">
+                <p class="footer_weather_text">Weathercoach</p>
+            </div>
+            <div>
+                <ul class="d-flex justify-content-center footer_navbar">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="climate_change.html">Climate Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="gallery.html">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="hr_row">
+            <div class="row footer_copy">
+                <div class="col-md-8 d-flex justify-content-center">
+                    <p><i class="fa-regular fa-copyright" style="color: #ffffff;"></i></p>
+                    <p class="text-light rights">2022 Weathercoach. All Rights Reserved</p>
+                </div>
+                <div class="col-md-4 d-flex gap-3 justify-content-center iconss">
+                    <!-- icons  -->
+                    <i class="fa-brands fa-linkedin fa-2x" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-instagram fa-2x" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-twitter fa-2x" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

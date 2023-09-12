@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.container {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+}
+
+.cold {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.soream {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.blog {
+    padding-top: 25px;
+    width: 717px;
+    height: 550px;
+}
+
+.vorem {
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.treading {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 95px;
+}
+
+.horizontal_line {
+    border: 1.5px dashed #000;
+}
+
+.tread {
+    width: 191px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ipusm {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dolor {
+    color: #747474;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.live {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+}
+.dote{
+    margin-top: 160px !important;
+}
+
+
+/* footer part  */
+.bg-footer {
+    margin-top: 80px;
+    background-color: #000;
+    width: 100%;
+    height: 334px;
+}
+
+.footer_weather_text {
+    color: #FFF;
+    font-family: 'Inder', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.weater_footer {
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.footer_navbar {
+    list-style-type: none;
+    padding-top: 30px;
+    column-gap: 20px;
+    color: #FFF;
+}
+
+.hr_row {
+    color: #FFF;
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin-top: 50px;
+    position: absolute;
+    left: 5%;
+}
+
+.footer_copy {
+    padding-top: 80px;
+}
+
+.rights {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    justify-content: start;
+}
+
+/* media query  */
+@media (min-width:320px) and (max-width:480px) {
+    .bg-footer {
+        height: 460px;
+    }
+    .footer_navbar{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg-img {
+    background-image: url(/img/news.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 423px;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.around {
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.12px;
+}
+
+.houres {
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.one {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    font-size: 16px;
+}
+
+.read {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #1E64F0;
+    text-decoration: none;
+
+}
+
+.m_padding {
+    padding: 14px;
+}
+
+.card-img-top{
+    opacity: 0.5;
+}
+.card-img-top:hover{
+    opacity: 1;
+    color: #000000;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* footer part  */
+.bg-footer {
+    margin-top: 80px;
+    background-color: #000;
+    width: 100%;
+    height: 334px;
+}
+
+.footer_weather_text {
+    color: #FFF;
+    font-family: 'Inder', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.weater_footer {
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.footer_navbar {
+    list-style-type: none;
+    padding-top: 30px;
+    column-gap: 20px;
+    color: #FFF;
+}
+
+.hr_row {
+    color: #FFF;
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin-top: 50px;
+    position: absolute;
+    left: 5%;
+}
+
+.footer_copy {
+    padding-top: 80px;
+}
+
+.rights {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    justify-content: start;
+}
+
+.fa-brands {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+}
+
+/* media  */
+@media (min-width: 320px) and (max-width:480px) {
+    .nave_items {
+        flex-direction: column;
+    }
+
+    .bg-footer {
+        height: 450px;
+    }
+
+    .weater_footer {
+        padding-top: 25px;
+    }
+}
